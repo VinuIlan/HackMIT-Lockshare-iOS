@@ -12,3 +12,5 @@ Features:
   You can give permission to others for limited time to lock/unlock your door.
   
 This app works by communicating with a server to lock and unlock your door.
+
+My team and I placed top 16 at HackMIT with this project.
