@@ -14,6 +14,14 @@
 		9796FD1719E0874700816818 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9796FD1619E0874700816818 /* Images.xcassets */; };
 		9796FD1A19E0874700816818 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9796FD1819E0874700816818 /* LaunchScreen.xib */; };
 		9796FD2619E0874800816818 /* SmartLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9796FD2519E0874800816818 /* SmartLockTests.m */; };
+		9796FD3119E0963C00816818 /* InfoPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9796FD3019E0963C00816818 /* InfoPage.m */; };
+		9796FD3619E09D4400816818 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9796FD3219E09D1100816818 /* MapKit.framework */; };
+		9796FD3719E09D4D00816818 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9796FD3419E09D1B00816818 /* CoreLocation.framework */; };
+		9796FD3A19E0A5A500816818 /* PermissionsPanelPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9796FD3919E0A5A500816818 /* PermissionsPanelPage.m */; };
+		9796FD3C19E0AEAC00816818 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9796FD3B19E0AEAC00816818 /* CoreGraphics.framework */; };
+		9796FD3E19E0AEB200816818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9796FD3D19E0AEB200816818 /* UIKit.framework */; };
+		9796FD4019E0AEBA00816818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9796FD3F19E0AEBA00816818 /* Foundation.framework */; };
+		9796FD4219E0B9A400816818 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9796FD4119E0B9A400816818 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,16 @@
 		9796FD1F19E0874700816818 /* SmartLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9796FD2419E0874700816818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9796FD2519E0874800816818 /* SmartLockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartLockTests.m; sourceTree = "<group>"; };
+		9796FD2F19E0963C00816818 /* InfoPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoPage.h; sourceTree = "<group>"; };
+		9796FD3019E0963C00816818 /* InfoPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoPage.m; sourceTree = "<group>"; };
+		9796FD3219E09D1100816818 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9796FD3419E09D1B00816818 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9796FD3819E0A5A500816818 /* PermissionsPanelPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermissionsPanelPage.h; sourceTree = "<group>"; };
+		9796FD3919E0A5A500816818 /* PermissionsPanelPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermissionsPanelPage.m; sourceTree = "<group>"; };
+		9796FD3B19E0AEAC00816818 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9796FD3D19E0AEB200816818 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9796FD3F19E0AEBA00816818 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9796FD4119E0B9A400816818 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9796FD4219E0B9A400816818 /* LocalAuthentication.framework in Frameworks */,
+				9796FD4019E0AEBA00816818 /* Foundation.framework in Frameworks */,
+				9796FD3E19E0AEB200816818 /* UIKit.framework in Frameworks */,
+				9796FD3C19E0AEAC00816818 /* CoreGraphics.framework in Frameworks */,
+				9796FD3719E09D4D00816818 /* CoreLocation.framework in Frameworks */,
+				9796FD3619E09D4400816818 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,12 @@
 		9796FCFD19E0874700816818 = {
 			isa = PBXGroup;
 			children = (
+				9796FD4119E0B9A400816818 /* LocalAuthentication.framework */,
+				9796FD3F19E0AEBA00816818 /* Foundation.framework */,
+				9796FD3D19E0AEB200816818 /* UIKit.framework */,
+				9796FD3B19E0AEAC00816818 /* CoreGraphics.framework */,
+				9796FD3419E09D1B00816818 /* CoreLocation.framework */,
+				9796FD3219E09D1100816818 /* MapKit.framework */,
 				9796FD0819E0874700816818 /* SmartLock */,
 				9796FD2219E0874700816818 /* SmartLockTests */,
 				9796FD0719E0874700816818 /* Products */,
@@ -85,6 +115,10 @@
 				9796FD0E19E0874700816818 /* AppDelegate.m */,
 				9796FD1019E0874700816818 /* ViewController.h */,
 				9796FD1119E0874700816818 /* ViewController.m */,
+				9796FD2F19E0963C00816818 /* InfoPage.h */,
+				9796FD3019E0963C00816818 /* InfoPage.m */,
+				9796FD3819E0A5A500816818 /* PermissionsPanelPage.h */,
+				9796FD3919E0A5A500816818 /* PermissionsPanelPage.m */,
 				9796FD1319E0874700816818 /* Main.storyboard */,
 				9796FD1619E0874700816818 /* Images.xcassets */,
 				9796FD1819E0874700816818 /* LaunchScreen.xib */,
@@ -168,6 +202,7 @@
 				TargetAttributes = {
 					9796FD0519E0874700816818 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = Q246N539F7;
 					};
 					9796FD1E19E0874700816818 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -220,7 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9796FD1219E0874700816818 /* ViewController.m in Sources */,
+				9796FD3A19E0A5A500816818 /* PermissionsPanelPage.m in Sources */,
 				9796FD0F19E0874700816818 /* AppDelegate.m in Sources */,
+				9796FD3119E0963C00816818 /* InfoPage.m in Sources */,
 				9796FD0C19E0874700816818 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,9 +380,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SmartLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -353,9 +393,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SmartLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
